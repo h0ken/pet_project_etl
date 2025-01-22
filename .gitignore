@@ -1,0 +1,9 @@
+airflow/logs/
+airflow/plugins/
+
+*.ipynb_checkpoints/
+.local/
+.runtime/
+.npm/
+.jupyter/
+.ipython
