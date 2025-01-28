@@ -41,7 +41,7 @@ def process_year(message):
         return
 
     # Проверка наличия запусков для выбранного года
-    filtered_data_year = data[data['Дата полета'].str.contains(f'{year}-')]
+    filtered_data_year = data[data['flight_date'].str.contains(f'{year}-')]
     if filtered_data_year.empty:
         bot.send_message(message.chat.id, f"Извините, в {year} не было запусков. Пожалуйста, выберите другой год.")
         bot.register_next_step_handler(message, process_year)
@@ -69,7 +69,7 @@ def process_month(message):
         return
 
     # Проверка наличия запусков для выбранного года и месяца
-    filtered_data = data[data['Дата полета'].str.contains(f'{year}-{month.zfill(2)}')]
+    filtered_data = data[data['flight_date'].str.contains(f'{year}-{month.zfill(2)}')]
 
     if filtered_data.empty:
         bot.send_message(message.chat.id, f"Извините, в {year}-{month} запусков не было. Пожалуйста, попробуйте другой месяц.")
@@ -78,10 +78,10 @@ def process_month(message):
         # Отправка информации о запусках
         for _, row in filtered_data.iterrows():
             response = (
-                f"Дата: {row['Дата полета']}\n"
-                f"Корабль: {row['Название корабля']}\n"
-                f"Успешность: {row['Успешность полета']}\n"
-                f"Ссылка на YouTube: {row['Ссылка на YouTube']}\n"
+                f"Дата: {row['flight_date']}\n"
+                f"Корабль: {row['ship_name']}\n"
+                f"Успешность: {row['flight_success_rate']}\n"
+                f"Ссылка на YouTube: {row['link_to_youtube']}\n"
             )
             bot.send_message(message.chat.id, response)
         bot.send_message(message.chat.id, "Вот все найденные запуски! Если хотите узнать еще, используйте /start.")
