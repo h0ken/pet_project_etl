@@ -88,5 +88,4 @@ task3 = PythonOperator(
     dag=dag,
 )
 
-# Устанавливаем зависимости
 task1 >> task2 >> task_additional >> task3
