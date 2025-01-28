@@ -14,13 +14,13 @@ final_csv_path = "/opt/synthetic_data/launches_filtered.csv"
 try:
     launches_df = spark.read.option("multiline", "true").json(json_path)
     launches_filtered_df = launches_df.select(
-        coalesce(col("date_utc"), lit("No information available")).alias("Дата полета"),
-        coalesce(col("name"), lit("No information available")).alias("Название корабля"),
+        coalesce(col("date_utc"), lit("No information available")).alias("flight_date"),
+        coalesce(col("name"), lit("No information available")).alias("ship_name"),
         coalesce(
             when(col("success").isNotNull(), col("success").cast("string")).otherwise(lit("No information available")),
             lit("No information available")
-        ).alias("Успешность полета"),
-        coalesce(col("links.webcast"), lit("No information available")).alias("Ссылка на YouTube")
+        ).alias("flight_success_rate"),
+        coalesce(col("links.webcast"), lit("No information available")).alias("link_to_youtube")
     )
 
     launches_filtered_df.coalesce(1).write.option("header", "true").mode("overwrite").csv(temp_csv_path)

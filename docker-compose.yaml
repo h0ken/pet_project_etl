@@ -1,5 +1,3 @@
-version: '3.7'
-
 x-airflow-common: &airflow-common
   environment:
     &airflow-common-env
@@ -98,6 +96,7 @@ services:
     command: bash -c "airflow db init && airflow users create --username $${_AIRFLOW_WWW_USER_USERNAME} --password $${_AIRFLOW_WWW_USER_PASSWORD} --firstname Admin --lastname User --role Admin --email admin@example.com"
     environment:
       <<: *airflow-common-env
+
   jupyter:
     container_name: jupyter_notebook
     build:
@@ -115,6 +114,25 @@ services:
       - GRANT_SUDO=yes
     user: root
     restart: unless-stopped
+
+  superset:
+    container_name: superset
+    build:
+      context: ./superset
+      dockerfile: Dockerfile
+    environment:
+      - SUPERSET_SECRET_KEY=pass_UnreAl_comm_2026
+      - ADMIN_USERNAME=admin
+      - ADMIN_EMAIL=admin@example.com
+      - ADMIN_PASSWORD=admin
+    ports:
+      - "8088:8088"
+    volumes:
+      - ./superset_data:/app/superset_home
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
 
 volumes:
   postgres-db-volume:

@@ -16,7 +16,7 @@ def fetch_launch_data():
         with open("/opt/airflow/synthetic_data/all_launches.json", "w") as file:
             json.dump(launches, file, indent=4)
         
-        print("Данные успешно загружены и сохранены в файл all_launches.json!")
+        print("Данные сохранены в файл all_launches.json")
     except requests.exceptions.RequestException as e:
         print(f"Ошибка при запросе данных: {e}")
     except Exception as e:

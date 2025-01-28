@@ -1,4 +1,4 @@
-Дата полета,Название корабля,Успешность полета,Ссылка на YouTube
+flight_date,ship_name,flight_success_rate,link_to_youtube
 2006-03-24T22:30:00.000Z,FalconSat,false,https://www.youtube.com/watch?v=0a_00nJ_Y88
 2007-03-21T01:10:00.000Z,DemoSat,false,https://www.youtube.com/watch?v=Lk4zQ2wP-Nc
 2008-08-03T03:34:00.000Z,Trailblazer,false,https://www.youtube.com/watch?v=v0w9p3U8860
