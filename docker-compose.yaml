@@ -1,0 +1,141 @@
+x-airflow-common: &airflow-common
+  environment:
+    &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: CeleryExecutor
+    AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
+    AIRFLOW__CELERY__BROKER_URL: redis://redis:6379/0
+    AIRFLOW__CORE__FERNET_KEY: ''
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    _AIRFLOW_DB_MIGRATE: 'true'
+    _AIRFLOW_WWW_USER_CREATE: 'true'
+    _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-admin}
+    _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-admin}
+  volumes:
+    - ./airflow/dags:/opt/airflow/dags
+    - ./airflow/logs:/opt/airflow/logs
+    - ./airflow/plugins:/opt/airflow/plugins
+    - ./src:/opt/airflow/scripts
+    - ./src/synthetic_data:/opt/synthetic_data
+  depends_on:
+    postgres:
+      condition: service_healthy
+    redis:
+      condition: service_healthy
+
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    volumes:
+      - postgres-db-volume:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 5
+
+  redis:
+    image: redis:7.2-bookworm
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 30s
+      retries: 5
+
+  airflow-webserver:
+    <<: *airflow-common
+    build:
+      context: ./airflow
+      dockerfile: Dockerfile
+    container_name: airflow-webserver
+    environment:
+      *airflow-common-env
+    command: webserver
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+
+  airflow-scheduler:
+    <<: *airflow-common
+    build:
+      context: ./airflow
+      dockerfile: Dockerfile
+    container_name: airflow-scheduler
+    environment:
+      *airflow-common-env
+    command: scheduler
+    restart: unless-stopped
+
+  airflow-worker:
+    <<: *airflow-common
+    build:
+      context: ./airflow
+      dockerfile: Dockerfile
+    container_name: airflow-worker
+    environment:
+      *airflow-common-env
+    command: celery worker
+    restart: unless-stopped
+
+  airflow-init:
+    <<: *airflow-common
+    build:
+      context: ./airflow
+      dockerfile: Dockerfile
+    container_name: airflow-init
+    command: bash -c "airflow db init && airflow users create --username $${_AIRFLOW_WWW_USER_USERNAME} --password $${_AIRFLOW_WWW_USER_PASSWORD} --firstname Admin --lastname User --role Admin --email admin@example.com"
+    environment:
+      <<: *airflow-common-env
+
+  jupyter:
+    container_name: jupyter_notebook
+    build:
+      context: ./jupyter
+      dockerfile: Dockerfile
+    ports:
+      - "10000:8888"
+      - "4040:4040"
+    volumes:
+      - ./src/synthetic_data:/home/jovyan/source
+      - ./src/data_lake:/home/jovyan/data_lake
+      - ./jupyter/jupyter_notebook:/home/jovyan
+    command: jupyter notebook --no-browser --NotebookApp.token='' --NotebookApp.password='' --ip='*' --allow-root
+    environment:
+      - GRANT_SUDO=yes
+    user: root
+    restart: unless-stopped
+
+  superset:
+    container_name: superset
+    build:
+      context: ./superset
+      dockerfile: Dockerfile
+    environment:
+      - SUPERSET_SECRET_KEY=pass_UnreAl_comm_2026
+      - ADMIN_USERNAME=admin
+      - ADMIN_EMAIL=admin@example.com
+      - ADMIN_PASSWORD=admin
+    ports:
+      - "8088:8088"
+    volumes:
+      - ./superset_data:/app/superset_home
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+
+volumes:
+  postgres-db-volume:
+
+networks:
+  default:

@@ -1,0 +1,206 @@
+flight_date,ship_name,flight_success_rate,link_to_youtube
+2006-03-24T22:30:00.000Z,FalconSat,false,https://www.youtube.com/watch?v=0a_00nJ_Y88
+2007-03-21T01:10:00.000Z,DemoSat,false,https://www.youtube.com/watch?v=Lk4zQ2wP-Nc
+2008-08-03T03:34:00.000Z,Trailblazer,false,https://www.youtube.com/watch?v=v0w9p3U8860
+2008-09-28T23:15:00.000Z,RatSat,true,https://www.youtube.com/watch?v=dLQ2tZEH6G0
+2009-07-13T03:35:00.000Z,RazakSat,true,https://www.youtube.com/watch?v=yTaIDooc8Og
+2010-06-04T18:45:00.000Z,Falcon 9 Test Flight,true,https://www.youtube.com/watch?v=nxSxgBKlYws
+2010-12-08T15:43:00.000Z,COTS 1,true,https://www.youtube.com/watch?v=cdLITgWKe_0
+2012-05-22T07:44:00.000Z,COTS 2,true,https://www.youtube.com/watch?v=tpQzDbAY7yI
+2012-10-08T00:35:00.000Z,CRS-1,true,https://www.youtube.com/watch?v=-Vk3hiV_zXU
+2013-03-01T19:10:00.000Z,CRS-2,true,https://www.youtube.com/watch?v=ik0ElKl5kW4
+2013-09-29T16:00:00.000Z,CASSIOPE,true,https://www.youtube.com/watch?v=uFefasS6bhc
+2013-12-03T22:41:00.000Z,SES-8,true,https://www.youtube.com/watch?v=aAj5xapImEs
+2014-01-06T18:06:00.000Z,Thaicom 6,true,https://www.youtube.com/watch?v=AnSNRzMEmCU
+2014-04-18T19:25:00.000Z,CRS-3,true,https://www.youtube.com/watch?v=Od-lON4bTyQ
+2014-07-14T15:15:00.000Z,OG-2 Mission 1,true,https://www.youtube.com/watch?v=lbHnSu-DLR4
+2014-08-05T08:00:00.000Z,AsiaSat 8,true,https://www.youtube.com/watch?v=essrkMGlw5s
+2014-09-07T05:00:00.000Z,AsiaSat 6,true,https://www.youtube.com/watch?v=39ninsyTRk8
+2014-09-21T05:52:00.000Z,CRS-4,true,https://www.youtube.com/watch?v=7YkCh7uOw1Y
+2015-01-10T09:47:00.000Z,CRS-5,true,https://www.youtube.com/watch?v=p7x-SumbynI
+2015-02-11T23:03:00.000Z,DSCOVR,true,https://www.youtube.com/watch?v=OvHJSIKP0Hg
+2015-03-02T03:50:00.000Z,ABS-3A / Eutelsat 115W B,true,https://www.youtube.com/watch?v=mN7lyaCBzT8
+2015-04-14T20:10:00.000Z,CRS-6,true,https://www.youtube.com/watch?v=csVpa25iqH0
+2015-04-27T23:03:00.000Z,TürkmenÄlem 52°E / MonacoSAT,true,https://www.youtube.com/watch?v=nBwAYT_ogj4
+2015-06-28T14:21:00.000Z,CRS-7,false,https://www.youtube.com/watch?v=PuNymhcTtSQ
+2015-12-22T01:29:00.000Z,OG-2 Mission 2,true,https://www.youtube.com/watch?v=O5bTbVbe4e4
+2016-01-17T15:42:00.000Z,Jason 3,true,https://www.youtube.com/watch?v=ivdKRJzl6y0
+2016-03-04T23:35:00.000Z,SES-9,true,https://www.youtube.com/watch?v=muDPSyO7-A0
+2016-04-08T20:43:00.000Z,CRS-8,true,https://www.youtube.com/watch?v=7pUAydjne5M
+2016-05-06T05:21:00.000Z,JCSAT-2B,true,https://www.youtube.com/watch?v=L0bMeDj76ig
+2016-05-27T21:39:00.000Z,Thaicom 8,true,https://www.youtube.com/watch?v=zBYC4f79iXc
+2016-06-15T14:29:00.000Z,ABS-2A / Eutelsat 117W B,true,https://www.youtube.com/watch?v=gLNmtUEvI5A
+2016-07-18T04:45:00.000Z,CRS-9,true,https://www.youtube.com/watch?v=ThIdCuSsJh8
+2016-08-14T05:26:00.000Z,JCSAT-16,true,https://www.youtube.com/watch?v=QZTCEO0gvLo
+2016-09-01T13:07:00.000Z,Amos-6,false,https://www.youtube.com/watch?v=_BgJEXQkjNQ
+2017-01-14T17:54:00.000Z,Iridium NEXT Mission 1,true,https://www.youtube.com/watch?v=7WimRhydggo
+2017-02-19T14:39:00.000Z,CRS-10,true,https://www.youtube.com/watch?v=giNhaEzv_PI
+2017-03-16T06:00:00.000Z,EchoStar 23,true,https://www.youtube.com/watch?v=lZmqbL-hz7U
+2017-03-30T22:27:00.000Z,SES-10,true,https://www.youtube.com/watch?v=xsZSXav4wI8
+2017-05-01T11:15:00.000Z,NROL-76,true,https://www.youtube.com/watch?v=EzQpkQ1etdA
+2017-05-15T23:21:00.000Z,Inmarsat-5 F4,true,https://www.youtube.com/watch?v=ynMYE64IEKs
+2017-06-03T21:07:00.000Z,CRS-11,true,https://www.youtube.com/watch?v=JuZBOUMsYws
+2017-06-23T19:10:00.000Z,BulgariaSat-1,true,https://www.youtube.com/watch?v=Y8mLi-rRTh8
+2017-06-25T20:25:00.000Z,Iridium NEXT Mission 2,true,https://www.youtube.com/watch?v=7tIwZg8F9b8
+2017-07-05T23:35:00.000Z,Intelsat 35e,true,https://www.youtube.com/watch?v=MIHVPCj25Z0
+2017-08-14T16:31:00.000Z,CRS-12,true,https://www.youtube.com/watch?v=vLxWsYx8dbo
+2017-08-24T18:50:00.000Z,FormoSat-5,true,https://www.youtube.com/watch?v=J4u3ZN2g_MI
+2017-09-07T13:50:00.000Z,Boeing X-37B OTV-5,true,https://www.youtube.com/watch?v=9M6Zvi-fFv4
+2017-10-09T12:37:00.000Z,Iridium NEXT Mission 3,true,https://www.youtube.com/watch?v=SB4N4xF2B2w&feature=youtu.be
+2017-10-11T22:53:00.000Z,SES-11 / Echostar 105,true,https://www.youtube.com/watch?v=iv1zeGSvhIw
+2017-10-30T19:34:00.000Z,KoreaSat 5A,true,https://www.youtube.com/watch?v=RUjH14vhLxA
+2017-12-15T15:36:00.000Z,CRS-13,true,https://www.youtube.com/watch?v=OPHbqY9LHCs
+2017-12-23T01:27:23.000Z,Iridium NEXT Mission 4,true,https://www.youtube.com/watch?v=wtdjCwo6d3Q
+2018-01-08T01:00:00.000Z,ZUMA,true,https://www.youtube.com/watch?v=0PWu3BRxn60
+2018-01-31T21:25:00.000Z,SES-16 / GovSat-1,true,https://www.youtube.com/watch?v=ScYUA51-POQ
+2018-02-06T20:45:00.000Z,Falcon Heavy Test Flight,true,https://www.youtube.com/watch?v=wbSwFU6tY1c
+2018-02-22T14:17:00.000Z,Paz / Starlink Demo,true,https://www.youtube.com/watch?v=-p-PToD2URA
+2018-03-06T05:33:00.000Z,Hispasat 30W-6,true,https://www.youtube.com/watch?v=Kpfrp-GMKKM
+2018-03-30T14:13:51.000Z,Iridium NEXT Mission 5,true,https://www.youtube.com/watch?v=mp0TW8vkCLg
+2018-04-02T20:30:41.000Z,CRS-14,true,https://www.youtube.com/watch?v=BPQHG-LevZM
+2018-04-18T22:51:00.000Z,TESS,true,https://www.youtube.com/watch?v=aY-0uBIYYKk
+2018-05-11T20:14:00.000Z,Bangabandhu-1,true,https://www.youtube.com/watch?v=rQEqKZ7CJlk
+2018-05-22T19:47:58.000Z,Iridium NEXT Mission 6,true,https://www.youtube.com/watch?v=I_0GgKfwCSk
+2018-06-04T04:45:00.000Z,SES-12,true,https://www.youtube.com/watch?v=2hcM5hqQ45s
+2018-06-29T09:42:00.000Z,CRS-15,true,https://www.youtube.com/watch?v=ycMagB1s8XM
+2018-07-22T05:50:00.000Z,Telstar 19V,true,https://www.youtube.com/watch?v=xybp6zLaGx4
+2018-07-25T11:39:26.000Z,Iridium NEXT Mission 7,true,https://www.youtube.com/watch?v=vsDknmK30C0
+2018-08-07T05:18:00.000Z,Merah Putih,true,https://www.youtube.com/watch?v=FjfQNBYv2IY
+2018-09-10T04:45:00.000Z,Telstar 18V,true,https://www.youtube.com/watch?v=Apw3xqwsG1U
+2018-10-08T02:22:00.000Z,SAOCOM 1A,true,https://www.youtube.com/watch?v=vr_C6LQ7mHc
+2018-11-15T20:46:00.000Z,Es’hail 2,true,https://www.youtube.com/watch?v=PhTbzc-BqKs&feature=youtu.be
+2018-12-03T18:34:00.000Z,SSO-A,true,https://www.youtube.com/watch?v=Wq8kS6UoOrQ
+2018-12-05T18:16:00.000Z,CRS-16,true,https://www.youtube.com/watch?v=Esh1jHT9oTA
+2018-12-23T13:51:00.000Z,GPS III SV01,true,https://youtu.be/yRiLPoy_Mzc
+2019-01-11T15:31:00.000Z,Iridium NEXT Mission 8,true,https://youtu.be/VshdafZvwrg
+2019-02-22T01:45:00.000Z,Nusantara Satu (PSN-6) / S5 / Beresheet,true,https://www.youtube.com/watch?v=XS0E35aYJcU
+2019-03-02T07:45:00.000Z,CCtCap Demo Mission 1,true,https://youtu.be/2ZL0tbOZYhE
+2019-04-11T22:35:00.000Z,ArabSat 6A,true,https://youtu.be/TXMGu2d8c8g
+2019-05-04T06:48:00.000Z,CRS-17,true,https://youtu.be/AQFhX5TvP0M
+2019-05-24T02:30:00.000Z,Starlink v0.9,true,https://www.youtube.com/watch?v=riBaVeDTEWI
+2019-06-12T14:17:00.000Z,RADARSAT Constellation,true,https://youtu.be/8A2nJd9Urk8
+2019-06-25T03:30:00.000Z,STP-2,true,https://youtu.be/WxH4CAlhtiQ
+2019-07-25T22:01:00.000Z,CRS-18,true,https://youtu.be/SlgrxVuP5jk
+2019-08-06T22:52:00.000Z,Amos-17,true,https://youtu.be/fZh82-WcCuo
+2019-11-11T14:56:00.000Z,Starlink-1,true,https://youtu.be/pIDuv0Ta0XQ
+2019-12-05T17:29:23.000Z,CRS-19,true,https://youtu.be/-aoAGdYXp_4
+2019-12-17T00:10:00.000Z,JCSat 18 / Kacific 1,true,https://youtu.be/sbXgZg9JmkI
+2020-01-07T02:19:00.000Z,Starlink-2,true,https://youtu.be/HwyXo6T7jC4
+2020-01-19T14:00:00.000Z,Crew Dragon In Flight Abort Test,true,https://youtu.be/mhrkdHshb3E
+2020-01-29T14:06:00.000Z,Starlink-3,true,https://youtu.be/1KmBDCiL7MU
+2020-02-17T15:05:55.000Z,Starlink-4,true,https://youtu.be/8xeX62mLcf8
+2020-03-07T04:50:31.000Z,CRS-20,true,https://youtu.be/1MkcWK2PnsU
+2020-03-18T12:16:00.000Z,Starlink-5,true,https://youtu.be/I4sMhHbHYXM
+2020-04-22T19:30:00.000Z,Starlink-6,true,https://youtu.be/wSge0I7pwFI
+2020-05-30T19:22:00.000Z,CCtCap Demo Mission 2,true,https://youtu.be/xY96v0OIcK4
+2020-06-04T01:25:00.000Z,Starlink-7,true,https://youtu.be/y4xBFHjkUvw
+2020-06-13T09:21:00.000Z,Starlink-8 & SkySat 16-18,true,https://youtu.be/8riKQXChPGg
+2020-06-30T19:55:00.000Z,GPS III SV03 (Columbus),true,https://youtu.be/6zr0nfG3Xy4
+2020-07-20T21:30:00.000Z,ANASIS-II,true,https://youtu.be/TshvZlQ7le8
+2020-08-07T05:12:00.000Z,Starlink-9 (v1.0) & BlackSky Global 5-6,true,https://youtu.be/KU6KogxG5BE
+2020-08-18T14:31:00.000Z,Starlink-10 (v1.0) & SkySat 19-21,true,https://youtu.be/jTMJK7wb0rM
+2020-08-30T23:18:00.000Z,"SAOCOM 1B, GNOMES-1, Tyvak-0172",true,https://youtu.be/P-gLOsDjE3E
+2020-09-03T12:46:00.000Z,Starlink-11 (v1.0),true,https://youtu.be/_j4xR7LMCGY
+2020-10-06T11:29:00.000Z,Starlink-12 (v1.0),true,https://youtu.be/UZkaE_9zwQQ
+2020-10-18T12:25:00.000Z,Starlink-13 (v1.0),true,https://youtu.be/UM8CDDAmp98
+2020-10-24T15:31:00.000Z,Starlink-14 (v1.0),true,https://youtu.be/2gbVgTxLgN0
+2020-11-05T23:24:00.000Z,GPS III SV04 (Sacagawea),true,https://youtu.be/wufXF5YKR1M
+2020-11-16T00:27:00.000Z,Crew-1,true,https://youtu.be/bnChQbxLkkI
+2020-11-21T17:17:00.000Z,Sentinel-6 Michael Freilich,true,https://youtu.be/aVFPzTDCihQ
+2020-11-25T02:13:00.000Z,Starlink-15 (v1.0),true,https://youtu.be/J442-ti-Dhg
+2020-12-06T16:17:00.000Z,CRS-21,true,https://youtu.be/4xJAGFR_N-c
+2020-12-13T17:30:00.000Z,SXM-7,true,https://youtu.be/COraGXFb1lo
+2020-12-19T14:00:00.000Z,NROL-108,true,https://youtu.be/9OeVwaFBkfE
+2021-01-08T02:15:00.000Z,Turksat 5A,true,https://youtu.be/9I0UYXVqIn8
+2021-01-20T13:02:00.000Z,Starlink-16 (v1.0),true,https://youtu.be/84Nct_Q9Lqw
+2021-01-24T15:00:00.000Z,Transporter-1,true,https://youtu.be/ScHI1cbkUv4
+2021-02-04T06:19:00.000Z,Starlink-18 (v1.0),true,https://youtu.be/fe6HBw1y6bA
+2021-02-16T03:59:00.000Z,Starlink-19 (v1.0),true,https://youtu.be/L0dkyV09Zso
+2021-03-04T08:24:00.000Z,Starlink-17 (v1.0),true,https://youtu.be/d5DzoKuhdNk
+2021-03-11T08:13:00.000Z,Starlink-20 (v1.0),true,https://youtu.be/U4sWbTfrzj8
+2021-03-14T10:01:00.000Z,Starlink-21 (v1.0),true,https://youtu.be/JKf45ATgATc
+2021-03-24T08:28:00.000Z,Starlink-22 (v1.0),true,https://youtu.be/a15czI9B91c
+2021-04-07T16:34:00.000Z,Starlink-23 (v1.0),true,https://youtu.be/Uy9Jn-3vuPs
+2021-04-23T09:49:00.000Z,Crew-2,true,https://youtu.be/lW07SN3YoLI
+2021-04-29T03:44:00.000Z,Starlink-24 (v1.0),true,https://youtu.be/RBxkRKZ34yo
+2021-05-04T19:01:00.000Z,Starlink-25 (v1.0),true,https://youtu.be/xpl_JnG7rcg
+2021-05-09T06:42:00.000Z,Starlink-27 (v1.0),true,https://youtu.be/J71s2KmkSrc
+2021-05-15T22:54:00.000Z,Starlink-26 (v1.0) + Capella-6 + Tyvak-0130,true,https://youtu.be/tdgg_qwj-hI
+2021-05-26T18:59:00.000Z,Starlink-28 (v1.0),true,https://youtu.be/xRu-ekesDyY
+2021-06-03T17:29:00.000Z,CRS-22 & IROSA,true,https://youtu.be/QXf9mRWbXDM
+2021-06-06T04:26:00.000Z,SXM-8,true,https://youtu.be/bgtDRR2F2wA
+2021-06-17T16:09:00.000Z,GPS III SV05,true,https://youtu.be/QJXxVtp3KqI
+2021-06-30T19:31:00.000Z,Transporter-2,true,https://youtu.be/sSiuW1HcGjA
+2021-08-29T07:14:00.000Z,CRS-23,true,https://youtu.be/x-KiDqxAMU0
+2021-09-14T03:55:00.000Z,Starlink 2-1 (v1.5),true,https://youtu.be/4372QYiPZB4
+2021-09-16T00:02:00.000Z,Inspiration4,true,https://youtu.be/3pv01sSq44w
+2021-11-11T02:03:00.000Z,Crew-3,true,https://youtu.be/WZvtrnFItNs
+2021-11-13T12:40:00.000Z,Starlink 4-1 (v1.5),true,https://youtu.be/AtmtP4vouSY
+2021-11-24T06:20:00.000Z,DART,true,https://youtu.be/XKRf6-NcMqI
+2021-12-01T23:20:00.000Z,Starlink 4-3 (v1.5),true,https://youtu.be/594TbXriaAk
+2021-12-09T06:00:00.000Z,IXPE,true,https://youtu.be/CpmHsN5GUn8
+2021-12-18T12:41:40.000Z,Starlink 4-4 (v1.5),true,https://youtu.be/q4Ed3EBx90s
+2021-12-19T03:58:00.000Z,Türksat 5B,true,https://youtu.be/JBGjE9_aosc
+2021-12-21T10:06:00.000Z,CRS-24,true,https://youtu.be/gEv6HLHYhWo
+2022-01-06T21:49:00.000Z,Starlink 4-5 (v1.5),true,https://youtu.be/4_ePBpwMhns
+2022-01-13T15:25:00.000Z,Transporter-3,true,https://youtu.be/mFBeuSAvhUQ
+2022-01-19T00:04:00.000Z,Starlink 4-6 (v1.5),true,https://youtu.be/Yov854ZT1lg
+2022-01-31T23:11:12.000Z,CSG-2,true,https://youtu.be/AbFoi68L-GQ
+2022-02-02T20:18:00.000Z,NROL-87,true,https://youtu.be/bVk8XyjhTKo
+2022-02-03T18:13:00.000Z,Starlink 4-7 (v1.5),true,https://youtu.be/UY3fZ6PwuUY
+2022-02-21T14:44:00.000Z,Starlink 4-8 (v1.5),true,https://youtu.be/eiKOMCRymsw
+2022-02-25T17:12:00.000Z,Starlink 4-11 (v1.5),true,https://youtu.be/nnVOfKOzXHE
+2022-03-03T14:35:00.000Z,Starlink 4-9 (v1.5),true,https://youtu.be/ypb2sDdUkRo
+2022-03-09T13:45:00.000Z,Starlink 4-10 (v1.5),true,https://youtu.be/uqAppamdGyo
+2022-03-19T03:24:00.000Z,Starlink 4-12 (v1.5),true,https://youtu.be/0giA6VZOICs
+2022-04-01T16:24:00.000Z,Transporter-4,true,https://youtu.be/4NqSoHnkKEM
+2022-04-08T15:17:00.000Z,Ax-1,true,https://youtu.be/5nLk_Vqp7nw
+2022-04-17T13:13:00.000Z,NROL-85,true,https://youtu.be/mMcmf1g4qSA
+2022-04-21T15:16:00.000Z,Starlink 4-14 (v1.5),true,https://youtu.be/s6yBwQSrtFY
+2022-04-27T07:52:00.000Z,Crew-4,true,https://youtu.be/orN0PaqQECs
+2022-04-29T21:27:00.000Z,Starlink 4-16 (v1.5),true,https://youtu.be/skNrXnubpwA
+2022-05-06T09:42:00.000Z,Starlink 4-17 (v1.5),true,https://youtu.be/KzpVUXxdc68
+2022-05-13T22:07:00.000Z,Starlink 4-13 (v1.5),true,https://youtu.be/bG6AwvGPd-E
+2022-05-14T20:40:00.000Z,Starlink 4-15 (v1.5),true,https://youtu.be/nFDkWL2Hmh8
+2022-05-18T10:40:00.000Z,Starlink 4-18 (v1.5),true,https://youtu.be/dQTgX40R-IQ
+2022-05-25T18:27:00.000Z,Transporter-5,true,https://youtu.be/KHt3MyimuqU
+2022-06-08T21:04:00.000Z,Nilesat-301,true,https://youtu.be/UpCZu89zb5Y
+2022-06-01T17:08:50.000Z,Starlink 4-19 (v1.5),true,https://youtu.be/oCN-BMU9-hM
+2022-06-18T14:19:00.000Z,SARah 1,true,https://youtu.be/lCX-KUCn4A4
+2022-06-19T04:27:00.000Z,Globalstar FM15,true,https://youtu.be/94cClvOFWH4
+2022-06-29T21:04:00.000Z,SES-22,true,https://youtu.be/ZjUvXWg2_fE
+2022-07-07T13:11:00.000Z,Starlink 4-21 (v1.5),true,https://youtu.be/u_A7xdnVllM
+2022-07-11T01:39:00.000Z,Starlink 3-1 (v1.5),No information available,https://youtu.be/_c738Z_zQR0
+2022-07-15T00:44:00.000Z,CRS-25,true,https://youtu.be/mnowEqqMiFs
+2022-07-17T14:50:00.000Z,Starlink 4-22 (v1.5),true,https://youtu.be/7VWcjgYfJ9U
+2022-07-21T17:13:00.000Z,Starlink 3-2 (v1.5),true,https://youtu.be/BuXdtORWrpg
+2022-07-24T00:00:00.000Z,Starlink 4-25 (v1.5),true,No information available
+2022-08-04T23:08:00.000Z,KPLO,true,https://youtu.be/rTrkHZjiO_8
+2022-08-09T22:57:00.000Z,Starlink 4-26 (v1.5),true,https://youtu.be/ck5z0uMGz8s
+2022-08-12T21:30:00.000Z,Starlink 3-3 (v1.5),true,https://youtu.be/SU5FbiCbjic
+2022-08-19T19:24:00.000Z,Starlink 4-27 (v1.5),true,https://youtu.be/M018DAaNd_E
+2022-08-28T02:22:00.000Z,Starlink 4-23 (v1.5),true,https://youtu.be/07RGJ04HRns
+2022-08-31T05:40:00.000Z,Starlink 3-4 (v1.5),true,https://youtu.be/zSJWK_pmXVw
+2022-09-05T02:09:00.000Z,Starlink 4-20 (v1.5) & Sherpa LTC-2/Varuna-TDM,true,https://youtu.be/NONM-xsKMSs
+2022-09-11T01:10:00.000Z,Starlink 4-2 (v1.5) & Blue Walker 3,true,No information available
+2022-09-17T01:05:00.000Z,Starlink 4-34 (v1.5),true,https://youtu.be/ZlQHF_yBkMQ
+2022-09-24T23:30:00.000Z,Starlink 4-35 (v1.5),true,https://youtu.be/VVu2bSJJhgI
+2022-10-05T16:00:00.000Z,Crew-5,true,https://youtu.be/5EwW8ZkArL4
+2022-11-01T13:41:00.000Z,USSF-44,No information available,https://youtu.be/pY628jRd6gM
+2022-10-20T14:50:00.000Z,Starlink 4-36 (v1.5),No information available,https://youtu.be/iYtH2khNIgU
+2022-10-08T23:05:00.000Z,Galaxy 33 (15R) & 34 (12R),No information available,No information available
+2022-10-15T05:22:00.000Z,Hotbird 13F,No information available,No information available
+2022-11-03T03:24:00.000Z,Hotbird 13G,No information available,No information available
+2022-11-08T00:00:00.000Z,Galaxy 31 (23R) & 32 (17R),No information available,No information available
+2022-11-15T00:00:00.000Z,Eutelsat 10B,No information available,No information available
+2022-11-22T00:00:00.000Z,ispace Mission 1 & Rashid,No information available,No information available
+2022-11-18T22:00:00.000Z,CRS-26,No information available,No information available
+2022-11-01T00:00:00.000Z,Starlink 4-37 (v1.5),No information available,https://youtu.be/wcq7xiTOPRg
+2022-11-01T00:00:00.000Z,"O3b mPower 1,2",No information available,No information available
+2022-12-05T00:00:00.000Z,SWOT,No information available,No information available
+2022-11-01T00:00:00.000Z,SES-18 & SES-19,No information available,No information available
+2022-12-01T00:00:00.000Z,Transporter-6,No information available,No information available
+2022-12-01T00:00:00.000Z,TTL-1,No information available,No information available
+2022-12-01T00:00:00.000Z,WorldView Legion 1 & 2,No information available,No information available
+2022-12-01T00:00:00.000Z,Viasat-3 & Arcturus,No information available,No information available
+2022-12-01T00:00:00.000Z,O3b mPower 3.4,No information available,No information available
