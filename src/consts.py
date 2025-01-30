@@ -1,1 +1,1 @@
-REMOVED = 'Edit here!'
+API_TOKEN = 'Edit here!'
