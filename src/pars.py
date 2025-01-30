@@ -13,7 +13,8 @@ def fetch_launch_data():
         # Получаем данные в формате JSON
         launches = response.json()
         
-        with open("/opt/airflow/synthetic_data/all_launches.json", "w") as file:
+        #with open("/opt/airflow/synthetic_data/all_launches.json", "w") as file:
+        with open("C:/Users/nlozhnikov/Desktop/pet_project_etl/src/synthetic_data/all_launches.json", "w") as file:
             json.dump(launches, file, indent=4)
         
         print("Данные сохранены в файл all_launches.json")

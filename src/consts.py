@@ -1,1 +1,1 @@
-API_TOKEN = 'Edit here!'
+API_TOKEN = 'edit here!'

@@ -1,9 +1,9 @@
 import telebot
 import pandas as pd
-from consts import REMOVED
+from consts import API_TOKEN
 
 # Инициализация бота с токеном
-bot = telebot.TeleBot(REMOVED)
+bot = telebot.TeleBot(API_TOKEN)
 
 # Загружаем данные из CSV файла
 data = pd.read_csv("/opt/synthetic_data/launches_filtered.csv")
