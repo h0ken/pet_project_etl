@@ -19,11 +19,16 @@ dag = DAG(
     catchup=False,
 )
 
-# Функции для запуска скриптов
 def run_script_1():
+    """
+    Запускает скрипт pars.py для получения данных о запусках SpaceX.
+    """
     subprocess.run(['python', '/opt/airflow/scripts/pars.py'], check=True)
 
 def run_script_2():
+    """
+    Запускает скрипт process_launch.py для обработки полученных данных.
+    """
     try:
         result = subprocess.run(['python', '/opt/airflow/scripts/process_launch.py'], check=True, capture_output=True, text=True)
         print(result.stdout)
@@ -32,6 +37,9 @@ def run_script_2():
         raise
 
 def run_script_3():
+    """
+    Запускает скрипт tg_bot.py для отправки обработанных данных через Telegram-бота.
+    """
     try:
         result = subprocess.run(
             ['python', '/opt/airflow/scripts/tg_bot.py'],
@@ -48,6 +56,9 @@ def run_script_3():
         raise
 
 def run_load_db_script():
+    """
+    Запускает скрипт load_db.py для загрузки данных в базу данных PostgreSQL.
+    """
     try:
         result = subprocess.run(
             ['python', '/opt/airflow/scripts/load_db.py'],

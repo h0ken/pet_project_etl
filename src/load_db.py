@@ -22,8 +22,22 @@ CREATE TABLE IF NOT EXISTS space_missions.flights (
 );
 """
 
-def main():
-    # Создаем соединение с PostgreSQL
+def main() -> None:
+    """
+    Загружает данные из CSV в базу данных PostgreSQL.
+
+    Функция:
+    1. Создает соединение с PostgreSQL.
+    2. Создает схему и таблицу, если они не существуют.
+    3. Читает данные из CSV-файла.
+    4. Обрабатывает колонку `flight_success_rate`:
+       - Заменяет "No information available" на None.
+       - Преобразует значения 'true' и 'false' в соответствующие boolean значения.
+    5. Загружает данные в таблицу `flights` схемы `space_missions`.
+
+    Возвращает:
+    - None
+    """
     engine = create_engine(DATABASE_URI)
     
     with engine.connect() as connection:
@@ -32,14 +46,12 @@ def main():
     
     data = pd.read_csv(CSV_FILE)
 
-     # Заменяем "No information available" на None для flight_success_rate
     data['flight_success_rate'] = data['flight_success_rate'].replace("No information available", None)
 
-    # Преобразуем значения в boolean
     data['flight_success_rate'] = data['flight_success_rate'].map({'true': True, 'false': False, None: None})
     
-    # Загружаем данные в PostgreSQL
     data.to_sql("flights", engine, schema="space_missions", if_exists="append", index=False)
+
 
 if __name__ == "__main__":
     main()

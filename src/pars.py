@@ -4,7 +4,17 @@ import json
 # URL API SpaceX
 url = "https://api.spacexdata.com/v4/launches"
 
-def fetch_launch_data():
+def fetch_launch_data() -> None:
+    """
+    Запрашивает данные о запусках SpaceX и сохраняет их в файл.
+
+    Функция отправляет GET-запрос к API SpaceX, получает данные о запусках в формате JSON
+    и записывает их в файл all_launches.json в папке /opt/synthetic_data.
+
+    Исключения:
+    - requests.exceptions.RequestException: если произошла ошибка при запросе.
+    - Exception: для отлова любых других ошибок.
+    """
     try:
         # Отправляем запрос к API
         response = requests.get(url)
