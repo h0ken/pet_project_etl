@@ -16,7 +16,7 @@ x-airflow-common: &airflow-common
     - ./airflow/dags:/opt/airflow/dags
     - ./airflow/logs:/opt/airflow/logs
     - ./airflow/plugins:/opt/airflow/plugins
-    - ./src:/opt/airflow/scripts
+    - ./airflow/scripts:/opt/airflow/scripts
     - ./src/synthetic_data:/opt/synthetic_data
   depends_on:
     postgres:
