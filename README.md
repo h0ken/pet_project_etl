@@ -42,7 +42,7 @@
 2. **Клонируйте репозиторий:**
    
    ```bash
-   git clone https://neogit.neoflex.ru/nlozhnikov/pet_project_etl.git
+   git clone https://github.com/h0ken/pet_project_etl.git
 
 3. **Через консоль (командную строку) перейдите в папку с проектом (cd 'путь') и пропишите:**
    
